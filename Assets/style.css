@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+
+/*header styles*/
+data {
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  border: 10px;
+  margin: 15px;
+  display: flex;
+}
+
+.allScores {
+  width: auto;
+  padding: 10px;
+  margin: 1%;
+  justify-content: space-around;
+  float: left;
+}
+
+.timer {
+  float: right;
+  width: auto;
+  padding: 10px;
+  padding-right: 30px;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.allScores h2 {
+  color: #9300ff;
+  font-size: 1.2rem;
+}
+
+.timer h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/*body styles*/
+.card {
+  padding: 20%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+header {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+/*button style*/
+button {
+  background-color: #9300ff;
+  color: #fff;
+  font-size: 2rem;
+}
+
+button:hover {
+  background-color: #c175ff;
+  color: black;
+}
