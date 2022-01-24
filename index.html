@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <article class="data">
+    <!--Header-->
+    <header class="data">
       <div class="timer">
         <div class="timerText">
           <h2>Time:</h2>
@@ -21,17 +22,36 @@
       <div class="allScores">
         <h2>View High Scores</h2>
       </div>
-    </article>
+    </header>
 
-    <div class="card">
+    <!--Landing Page-->
+
+    <div id="info">
       <header>Coding Quiz Challenge</header>
       <p>
         Try to answer the following code-related questions within the time
         limit. Keep in mind that incorrect answers will penalize your score/time
         by ten seconds!
       </p>
-      <button class="start" id="count">Start Quiz</button>
-      <script src="Assets/script.js"></script>
+      <button id="start-btn">Start Quiz</button>
     </div>
+
+    <!--Question Page-->
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+
+      <div class="controls">
+        <button id="next-Btn">Next</button>
+      </div>
+    </div>
+
+    <script src="Assets/script.js"></script>
   </body>
 </html>
