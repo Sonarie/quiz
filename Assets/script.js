@@ -37,9 +37,9 @@ function setNextQuestion() {
 function showQuestion(question) {
   questionEl.innerText = question.question;
   question.answers.forEach((answer) => {
-    const button = document.createElement("button");
-    button.innterText = answer.text;
-    button.classList.add("btn");
+    //const button = document.createElement("button");
+    answerButtonsEl.innterText = answer.text;
+    //button.classList.add("btn");
     if (answer.correct) {
       button.dataset.correct = answer.correct;
     }
@@ -63,7 +63,7 @@ function selectAnswer(e) {
 const questions = [
   {
     question: "Commonly used data types DO Not inlude:",
-    answers: [
+    answer: [
       { text: "Strings", correct: false },
       { text: "Booleans", correct: false },
       { text: "Alerts", correct: true },
